@@ -1,0 +1,93 @@
+/* Navbar Config Start*/
+.topnav {
+  background-color: #2d72bc;
+  overflow: hidden;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.topnav a {
+  float: left;
+  color: #f2eae1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 100%;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.topnav a:hover {
+  background-color: #faf7eb;
+  color: #2d72bc;
+}
+
+.topnav a.active {
+  background-color: #faf7eb;
+  color: #2d72bc;
+}
+/* Navbar Config End */
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #faf7eb;
+}
+
+.home-intro {
+  text-align: center;
+}
+
+.home-intro h1{
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.home-intro h2{
+  font-size: 20px;
+}
+
+.home-image {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
+  border-radius: 25px;
+  border: solid #2d72bc;
+  border-width: 2px;
+}
+
+.home-image#logo {
+  margin: auto;
+  width: 3%;
+  height: auto;
+  display: block;
+  border-radius: 0px;
+  border-width: 0px;
+}
+
+.about-us {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.column {
+  width: 28%;
+  float: left;
+  margin: 15px;
+}
+
+.column img {
+  width: 50%;
+  margin: auto;
+  height: auto;
+  display: block;
+  border-radius: 25px;
+  border: solid #2d72bc;
+  border-width: 2px;
+}
